@@ -1,0 +1,52 @@
+<style>
+    body{
+      background-color: rgb(240, 131, 148);
+    }
+    h1{
+      color:whitesmoke;
+    }
+    p{
+      font-style: oblique;
+      font-size: 18px;
+      color:rgb(192, 21, 55);
+    }
+    .home-grid-container{
+      display: grid;
+      /* border: 1px red solid; */
+      width: 800px;
+      grid-template-columns: repeat(4, 200px) ;
+      grid-template-rows: repeat(2, 50px);
+      justify-items: center;
+      align-items: center;
+      justify-self: center;
+      padding-top: 30px;
+    } 
+    .menu-item-1 button{
+      height: 40px;
+      width: 150px;
+      border-radius: 30px;
+      background-color: gray;
+      color: white;
+    }
+    .menu-item-2 button{
+      height: 40px;
+      width: 150px;
+      border-radius: 30px;
+      background-color: gray;
+      color: white;
+    }
+    .menu-item-3 button{
+      height: 40px;
+      width: 150px;
+      border-radius: 30px;
+      background-color: gray;
+      color: white;
+    }
+    .menu-item-4 button{
+      height: 40px;
+      width: 150px;
+      border-radius: 30px;
+      background-color: gray;
+      color: white;
+    }
+  </style>
